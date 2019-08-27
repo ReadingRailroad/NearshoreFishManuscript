@@ -1,0 +1,98 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[12pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% Line Numbering
+\usepackage{lineno}
+\linenumbers
+
+%%% Double spacing
+\usepackage{setspace}
+
+%%% Bibliography
+\usepackage{natbib}
+
+
+%%% END Article customizations
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% The "real" document content comes below...
+
+\begin{document}
+\doublespacing
+
+\noindent
+Modeling Nearshore Fish Community Responses to Shoreline Types in Lake Erie 
+
+\vspace{\baselineskip}
+
+\noindent
+Martin A. Simonson, Christine M. Mayer, Song S. Qian, Kristin K. Arend, and Jonathan M. Bossenbroek
+
+\vspace{\baselineskip}
+
+\noindent
+Abstract
+
+Approximately 80 percent of fishes from the Laurentian Great Lakes use the nearshore zone in some way (e.g., feeding, spawning, or nursery area) for at least part of the year. Extensive shoreline alteration and development along Ohio's Lake Erie coast have reduced habitat complexity and changed ecological connections at the interface of land and water. Wy hypothesized that shoreline features affect the nearshore fish community composition and distribution. Relationships between shoreline type and the nearshore fish community were determined by classifying  terrestrial vegetation, shoreline armor structure, and a shoreline's exposure to wave energy at 51 coastal sites where fish were sampled between 2011 and 2017. Changes in the species richness as well as predicted total and relative abundances of nearshore fish community groups were modeled based on these shoreline classifications. We found that wave energy was negatively correlated with nearshore fish species richness as well ast total abundance of nearly all fish groups. Shoreline vegetation was inversely related to wave energy but positively associated with nearshore fish species richness and abundance of rare taxa. Shoreline armoring was uncorrelated with wave energy but was positively associated with nearshore fish species diversity at low exposure to energy, however, armoring led to more homogeneous fish communities at high wave energy. Understanding the impacts of shoreline modification on nearshore fish community attributes is critical to employing best management practices that will protect and sustain coastal fish habitat in Lake Erie.
+
+\vspace{\baselineskip}
+
+\noindent
+Introduction
+
+The quality of fish habitat in freshwater lakes depends on a variety of physical and chemical factors \citep{Tonn1982, Tonn1990}. In particular, the nearshore zone (>5m; \citep{Mackey2005}) of large lakes provides a critical habitat for many species of fish because it is physically diverse and highly productive doe to its transitional position between upland and pelagic ecosystems \citep{Jude1992a, Brazner1997). In the Laurentian Great Lakes, approximately 80\perc of fishes use the nearshore zone in some way (e.g., feeding spawning, or nursery area) for at least part of the year \citep{Reid2009}. However, the coastlines of many large lakes have dense human populations \citep{Cohen1998}, and the nearshore zone tends to by highly augmented in urban areas. Of the 32 largest cities in the world, 22 are located on estuaries \citep{Ross1995}. Therefore, the quality of coastal fish habitat is likely affected by human activities and development along a coastline. Knowledge of how human-driven habitat alteration influences the abundance and distribution of fish communities in the nearshore zone is essential to a clearer understanding of lake-wide ecosystem function.
+
+As coastal communities become more developed and urbanized, many residents, industries, and municipalities attempt to arrest shoreline erosion by armoring a coast with the use of hard structures. Armored shorelines in the Great Lakes are common. In particular, the United States Lake Erie shoreline is almost 83\perc protected or artificial \citep{Forgette2011}. Lucas County, Ohio has a shoreline that is more than 98\perc artificial \citep{FEMA2013}. Armor can add structure to homogenous coastlines and may provide beneficial habitat sructure to fome fish species similar to the way that among-lake heterogeneity correlates with species richness \citep{Tonn1982, Keast1984}. However, armor can increase coastal wave energy when it eliminates the gradual slope of coastlines, eliminating refuge for small fish. The slope of armoring, in addition to composite materials, affects nearshore fish community distribution by providing diverse mecro-habitats and varying levels of exposure to wave energy.
+
+Another common shoreline alteration is removal of terrestrial vegetation from the water's edge. Coastal vegetation is a principal biotic component of shoreline habitat; initial research on terrestrial vegetation along the United States shoreline of Lake Erie indicated that the presence of coastal vegetation was associated with increased fish diversity \citep{Ross2013}. Yellow perch (\textit{Perca flavescens}), northern pike (\textit{Esox lucius}), and smallmouth bass (\textit{Micropterus dolomieu}) have all been observed spawning at coastlines with dense vegetation \citep{Trautman1981}. Emergent vegetation provides structure and therefore refuge for small-bodied fish and invertebrates. Alternately, larger predators may have cover in emergent vegetation to improve capture success \citep{Diana2004, Strayer2010}. Further, shoreline vegetation stablizes substrate and therefore may reduce erosion while also improving nearshore water quality. Despite the multiple veneficial functions of shoreline vegetation
+
+\end{document}
